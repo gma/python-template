@@ -14,6 +14,16 @@ git mv mylib newname
 sed -i'' -e 's/mylib/newname/' tests/*
 ```
 
+## Choosing the Python version
+
+The version of Python that your project uses is needed by the GitHub Action that runs the tests, and perhaps by your local Python installation tool.
+
+You can create it like this:
+
+```sh
+echo 3.11.3 > .python-version  # 3.11.3 is just an example
+```
+
 ## Run the tests locally
 
 You need to get everything installed, and that first test running. Start by creating a virtual environment:
