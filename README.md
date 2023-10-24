@@ -61,3 +61,7 @@ Once you've got non-development dependencies you can specify them in `requiremen
 pip-compile requirements.in
 pip-sync requirements.txt dev-requirements.txt
 ```
+
+## Update the README
+
+Now delete all the docs that you've just followed, and write something suitable for your new project!
