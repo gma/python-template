@@ -43,7 +43,7 @@ You need to get everything installed, and that first test running. Start by crea
 
 ```sh
 python3 -m venv .venv
-activate
+source .venv/bin/activate
 ```
 
 Now we can install our development tools:
@@ -51,7 +51,6 @@ Now we can install our development tools:
 ```sh
 pip install --upgrade pip
 pip install pip-tools
-pip-compile dev-requirements.in
 pip-sync dev-requirements.txt
 ```
 
