@@ -26,8 +26,7 @@ echo 3.11.3 > .python-version  # 3.11.3 is just an example
 
 ## Reviewing the license
 
-The open source MIT license is used by default (see the `LICENSE` file).
-[Is it appropriate](https://choosealicense.com/) for this project?
+The open source MIT license is used by default (see the `LICENSE` file). [Is it appropriate](https://choosealicense.com/) for this project?
 
 If it is, don't forget to set the year and the name of the copyright holder:
 
