@@ -4,4 +4,7 @@ import sys
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, project_root)
 
-from mylib import *  # noqa: E402
+# To make the modules in your package available within your tests, import them
+# here:
+
+# from mylib import module  # noqa: E402
