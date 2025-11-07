@@ -40,9 +40,9 @@ Otherwise, just edit [LICENSE].
 
 [LICENSE]: ./LICENSE
 
-## Run the tests locally
+## Running the tests locally
 
-You need to get everything installed, and that first test running. Start by creating a virtual environment:
+You need to get everything installed, and then the tests should pass. Start by creating a virtual environment:
 
 ```sh
 python3 -m venv .venv
